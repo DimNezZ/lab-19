@@ -11,7 +11,7 @@
 <footer class="main-footer">
     <!-- To the right -->
     <div class="pull-right hidden-xs">
-        Anything you want
+        Все что вам нужно
     </div>
     <!-- Default to the left -->
     <strong>Copyright &copy; 2020 <a href="http://polytech.kz/" target="_blank" rel="noopener">Политехнический колледж г. Нур-Султан</a>.</strong> Все права защищены.
@@ -99,11 +99,11 @@ immediately after the control sidebar -->
 <!-- REQUIRED JS SCRIPTS -->
 
 <!-- jQuery 3 -->
-<script src="template/js/jquery.min.js"></script>
+<script src="/template/js/jquery.min.js"></script>
 <!-- Bootstrap 3.3.7 -->
-<script src="template/js/bootstrap.min.js"></script>
+<script src="/template/js/bootstrap.min.js"></script>
 <!-- AdminLTE App -->
-<script src="template/js/adminlte.min.js"></script>
+<script src="/template/js/adminlte.min.js"></script>
 
 <!-- Optionally, you can add Slimscroll and FastClick plugins.
      Both of these plugins are recommended to enhance the

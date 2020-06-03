@@ -64,7 +64,7 @@ desired effect
             <!-- mini logo for sidebar mini 50x50 pixels -->
             <span class="logo-mini"><b>Р</b></span>
             <!-- logo for regular state and mobile devices -->
-            <span class="logo-lg"><b>Расписание</b</span>
+            <span class="logo-lg"><b>Расписание</b></span>
         </a>
 
         <!-- Header Navbar -->
@@ -85,16 +85,15 @@ desired effect
                             <!-- The user image in the navbar-->
                             <!--<img src="dist/img/user2-160x160.jpg" class="user-image" alt="User Image">-->
                             <!-- hidden-xs hides the username on small devices so only the image appears. -->
-                            <span class="hidden-xs">Здравствуйте, DimNez</span>
+                            <span class="hidden-xs">Здравствуйте, <?= $username ?></span>
                         </a>
                         <ul class="dropdown-menu">
                             <!-- The user image in the menu -->
                             <li class="user-header">
                                 <!-- <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image"> -->
 
-                                <p>
-                                    <b>DimNez</b><br>Администратор
-                                </p>
+                                <p><?= $username ?></p>
+                                <p><?= $role ?></p>
                             </li>
                             <!-- Menu Body -->
 <!--                            <li class="user-body">-->
@@ -117,7 +116,10 @@ desired effect
                                     <a href="#" class="btn btn-default btn-flat">Профиль</a>
                                 </div>
                                 <div class="pull-right">
-                                    <a href="#" class="btn btn-default btn-flat">Выход</a>
+                                    <form method="POST">
+                                        <button type="submit" class="btn btn-default btn-flat" name="out">Выход</button>
+                                    </form>
+<!--                                    <a href="#" class="btn btn-default btn-flat">Выход</a>-->
                                 </div>
                             </li>
                         </ul>
@@ -168,6 +170,7 @@ desired effect
 
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
+        <canvas data-art></canvas>
         <!-- Content Header (Page header) -->
         <section class="content-header">
 <!--            <ol class="breadcrumb">-->
