@@ -1,3 +1,4 @@
+<?php require_once '_variables.php'; ?>
 <!DOCTYPE html>
 <!--
 This is a starter template page. Use this page to start your new project from

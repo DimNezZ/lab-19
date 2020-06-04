@@ -7,6 +7,9 @@ class Teacher extends  Table {
 
     public function validate()
     {
+        if (!empty($this->otdel_id)) {
+            return true;
+        }
         return false;
     }
 }
