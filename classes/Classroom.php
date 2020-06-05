@@ -1,6 +1,7 @@
 <?php
 
-class Classroom extends Table {
+class Classroom extends Table
+{
 
     public $classroom_id = 0;
     public $name = '';
@@ -8,6 +9,8 @@ class Classroom extends Table {
 
     public function validate()
     {
-        return false;
+        if (!empty($this->name) && !empty($this->active)) {
+            return true;
+        }
     }
 }

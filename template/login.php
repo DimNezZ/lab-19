@@ -104,7 +104,7 @@
             <p class="login-box-msg"<?= $message; ?></p>
         <?php } ?>
 
-        <form action="/auth.php" method="post">
+        <form action="auth.php" method="post">
             <div class="form-group has-feedback">
                 <input name="login" type="text" class="form-control" placeholder="Логин">
                 <span class="fas fa-envelope" aria-hidden="true"></span>
