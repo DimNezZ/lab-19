@@ -9,7 +9,6 @@ class SubjectMap extends BaseMap
         return $res->fetchAll(PDO::FETCH_ASSOC);
     }
 
-
     public function findById($id = null)
     {
         if ($id) {

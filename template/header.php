@@ -23,6 +23,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
           apply the skin class to the body tag so the changes take effect. -->
     <link rel="stylesheet" href="template/css/skins/skin-blue.min.css">
 
+
+    <!-- Фикс для мониторов 4 на 3 -->
+    <link rel="stylesheet" href="template/css/monitor-fix.css">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -56,7 +60,6 @@ desired effect
 -->
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
-
     <!-- Main Header -->
     <header class="main-header">
 
@@ -171,7 +174,6 @@ desired effect
 
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
-        <canvas data-art></canvas>
         <!-- Content Header (Page header) -->
         <section class="content-header">
 <!--            <ol class="breadcrumb">-->

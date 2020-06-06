@@ -67,4 +67,5 @@ class SpecialMap extends BaseMap
         }
         return false;
     }
+
 }

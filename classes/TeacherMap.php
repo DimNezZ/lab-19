@@ -2,7 +2,6 @@
 
 class TeacherMap extends BaseMap
 {
-
     public function findById($id = null)
     {
 
